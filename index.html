@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//db.onlinewebfonts.com/c/287a99eeca9e0e12030e79954d92d6fd?family=SohoGothicPro-Light" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/44d846cf43.js" crossorigin="anonymous"></script>
+
+    <title>Kappe</title>
+
+</head>
+
+<body>    
+    <main class="main">
+        <aside class="sidebar">
+            <div class="sidebar__logo logo">
+                <h1 class="logo__title">kappe</h1>
+                <p class="logo__subtitle">for creatives</p>
+            </div>
+            <nav class="sidebar__nav">
+                <ul class="sidebar__list">
+                    <li><a class="sidebar__link" href="../keephome/index.html">Home</a></li>
+                    <li><a class="sidebar__link" href="#">Work</a></li>
+                    <li><a class="sidebar__link" href="../keepabout/index.html">About</a></li>
+                    <li><a id="activeitem" class="sidebar__link" href="../keepcontact/index.html">Blog</a></li>
+                    <li><a class="sidebar__link" href="#">Services</a></li>
+                    <li><a class="sidebar__link" href="../keepcontact/index.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar__filter filter">
+                <div class="filter__title">
+                    <p class="filter__text">Filter</p>
+                    <i class="fab fa-windows"></i>
+                </div>
+                <ul class="filter__list">
+                    <li><a class="filter__link" href="#">All Works</a></li>
+                    <li><a class="filter__link" href="#">Web design</a></li>
+                    <li><a class="filter__link" href="#">Illustration</a></li>
+                    <li><a class="filter__link" href="#">Photography</a></li>
+                    <li><a class="filter__link" href="#">Wallpapers</a></li>
+                    <li><a class="filter__link" href="#">Brochures</a></li>
+                </ul>
+            </div>
+            <footer class="sidebar__footer footer">
+                <div class="footer__contacts">
+                    <a href="#"><img src="img/sidebar/flickr.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/google+.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/twitter.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/pinterest.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/dribbble.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/behance.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/facebook.png" alt=""></a>
+                </div>
+                <p class="footer__text">&copy; 2014 Kappe, All Rights Reserved</p>
+            </footer>
+        </aside>
+        <div class="burger" id="burger">
+            <span class="burger__top"></span>
+            <span class="burger__center"></span>
+            <span class="burger__bottom"></span>
+        </div>
+
+
+
+
+        <div class="assistant">
+            <div class="assistant__widget">
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <div class="assistant__contacts contacts-assist">
+                <div class="contacts-assist__tel">
+                    <a href="tel:+78142332211"><i class="fas fa-phone-alt"></i>+7(814)-233-22-11</a>
+                </div>
+                <div class="contacts-assist__mail">
+                    <a href="#"><i class="fas fa-envelope"></i>contact@domain.com</a>
+                </div>
+                <div class="contacts-assist__home">
+                    <a href="#"><i class="fas fa-home"></i>street address example</a>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="blog">
+            <figure class="blog__figure figureblog imglondon3">
+                <div class="figureblog__image">
+                    <div class="img-box" style="background-image: url(img/main/london.png);"></div>
+                    <div id="activeimg-box" class="img-box activeimg-box"
+                        style="background-image: url(img/main/drink.png);"></div>
+                    <div class="img-box" style="background-image: url(img/main/magazine.jpg);"></div>
+                </div>
+                <div class="figureblog__page">
+                    <h3 class="figureblog__title titleblog">HOVER in IMG</h3>
+                    <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is
+                        a craftsman; but a man who works with his hands and his brain and his heart is an artist</p>
+                </div>
+                <div class="figureblog__info">
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <p>3 comments.</p>
+                    </a>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <p>Sep 7.1940 London</p>
+                    </a>
+                </div>
+            </figure>
+            <figure class="blog__figure figureblog avocode">
+                <div class="figureblog__image one-image" style="background-image: url(img/main/avocado.png);"></div>
+                <div class="figureblog__page">
+                    <h3 class="figureblog__title titleblog">Avocode</h3>
+                    <p>Так уж завелось, что подавляющее большинство веб-дизайнеров создают макеты сайтов в Adobe
+                        Photoshop. И каждый раз, мы, бедные верстальщики, испытываем на себе все минусы и проблемы PS. И
+                        нам всегда приходилось с ними мириться.</p>
+                </div>
+                <div class="figureblog__info">
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <p>7 comments.</p>
+                    </a>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <p id="galgofa">April 3. 0033</p>
+                    </a>
+                </div>
+            </figure>
+            <div id="jacklondon" class="blog__quote london">
+                <p>Нового рая он не нашел, а старый был безвозвратно утрачен.</p>
+                <p class="blog__quote-author"><i class="fas fa-angle-double-left"></i>Джек Лондон<i
+                        class="fas fa-angle-double-right"></i></p>
+            </div>
+            <figure class="blog__figure figureblog moskow">
+                <div class="figureblog__image one-image" style="background-image: url(img/main/moskow.jpeg);"></div>
+                <div class="figureblog__page">
+                    <h3 class="figureblog__title titleblog">Москва сгорела от одной спички</h3>
+                    <p>Моско́вский пожа́р 1812 го́да — возгорания, произошедшие в Москве в период со 2 по 6
+                        сентября 1812 год во время оккупации города французскими войсками. Пожар охватил практически
+                        весь Земляной и Белый города, уничтожив три четверти деревянных построек. </p>
+                </div>
+                <div class="figureblog__info">
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <p>666 comments.</p>
+                    </a>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <p>Sep 8.1812</p>
+                    </a>
+                </div>
+            </figure>
+            <div id="irat" class="blog__inner ">
+                <img src="img/main/vizitok.jpg" alt="">
+            </div>
+            <div id="post" class="blog__post post">
+                <p class="post__text">Another Post where you can
+                    put a link to a specific website</p>
+                <a href="https://mybook.ru/">https://mybook.ru/</a>
+            </div>
+
+            <figure id="flowers3" class="blog__figure figureblog ">
+                <div class="figureblog__image">
+                    <div class="img-box" style="background-image: url(img/main/poppy1.jpg)"></div>
+                    <div id="activeimg-box" class="img-box activeimg-box"
+                        style="background-image: url(img/main/poppy2.jpg);"></div>
+                    <div class="img-box" style="background-image: url(img/main/poppy3.jpg);"></div>
+                </div>
+                <div class="figureblog__page">
+                    <h3 class="figureblog__title titleblog">HOVER in IMG</h3>
+                    <p>На данной странице есть отсылки, можешь попытаться их найти.Я не исключаю анахронизмы, но я
+                        постарался избежать их.Это не бахвальство, просто это интересно.Конечно, некоторым это может
+                        быть чуждо, тривиально и глупо.Ну попробуй.Всего хорошего.<span id="promt"
+                            style="color: aqua;">Подсказка</span></p>
+                </div>
+                <div class="figureblog__info">
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <p>F comments.</p>
+                    </a>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <p id="belarus">Aug 9.2020</p>
+                    </a>
+                </div>
+            </figure>
+            <div id="quotemih" class="blog__quote">
+                <p>Главное не крепость взять, а войну выиграть.</p>
+                <p class="blog__quote-author"><i class="fas fa-angle-double-left"></i>Михаил xxx<i
+                        class="fas fa-angle-double-right"></i></p>
+            </div>
+
+
+            <figure id="rome" class="blog__figure figureblog rome">
+                <div class="figureblog__image one-image" style="background-image: url(img/main/rim.jpg);"></div>
+                <div class="figureblog__page">
+                    <h3 class="figureblog__title titleblog">Римская империя</h3>
+                    <p>Пика своего могущества Древний Рим достиг во II веке н. э., когда под его контролем оказалось
+                        пространство от современной Англии на севере до Судана на юге и от Ирака на востоке до
+                        Португалии на западе. Современному миру Древний Рим подарил римское право, некоторые
+                        архитектурные формы и решения.</p>
+                </div>
+                <div class="figureblog__info">
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <p>No comments.</p>
+                    </a>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <p id="ces">March 15. 0044</p>
+                    </a>
+                </div>
+            </figure>
+            <figure id="brit" class="blog__figure figureblog ">
+                <div class="figureblog__image one-image" style="background-image: url(img/main/britishempire3.png);">
+                </div>
+                <div class="figureblog__page">
+                    <h3 class="figureblog__title titleblog">Британская империя</h3>
+                    <p>Британская империя колониальная империя, владевшая наибольшим количиством территорий за все
+                        время(22% земной суши).
+                        В течение восьми столетий. Британская империя с каждым годом разрасталась всё
+                        больше и становилась всё сильнее. Оно считалось самым развитым государством к началу XIX века.
+                        Именно в девятнадцатом столетии страна укрепила своё политическое значение до доминирующего.
+                    </p>
+                </div>
+                <div class="figureblog__info">
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <p>No comments.</p>
+                    </a>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <p>death of the emperor</p>
+                    </a>
+                </div>
+            </figure>
+
+            <figure id="error" class="blog__figure figureblog ">
+                <div class="figureblog__image one-image" style="background-image: url(img/main/monitor-13.png);"></div>
+                <div class="figureblog__page">
+                    <h3 class="figureblog__title titleblog">404</h3>
+                    <p>Ошибка 404 или Not Found («не найдено») — стандартный код ответа HTTP о том, что клиент был в
+                        состоянии общаться с сервером, но сервер не может найти данные согласно запросу.</p>
+                </div>
+                <div class="figureblog__info">
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <p>404 comments.</p>
+                    </a>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <p>March 26. 2000</p>
+                    </a>
+                </div>
+            </figure>
+            <figure id="wd2" class="blog__figure figureblog ">
+                <video height="220" poster="img/main/preloadvidio.jpg" preload="metadata" controls
+                    src="img/main/wd2.mp4"></video>
+                <div class="figureblog__page">
+                    <h3 class="figureblog__title titleblog">Watch Dogs 2</h3>
+                    <p>Watch Dogs 2 — мультиплатформенная компьютерная игра в жанре приключенческого боевика с открытым миром от
+                        французской компании Ubisoft, вышедшая на платформах PlayStation 4 и Xbox One 15 ноября 2016
+                        года. На PC игра вышла 29 ноября 2016 года. Сиквел игры 2014 года Watch Dogs, продолжающий
+                        сюжетную идею предшественника — взлом и хакерская деятельность в большом открытом для
+                        исследования игровом мире.</p>
+                </div>
+                <div class="figureblog__info">
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <p>9999 comments.</p>
+                    </a>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <p>March 26. 2000</p>
+                    </a>
+                </div>
+            </figure>
+        </section>
+    </main>
+    <script>document.querySelector('.burger').addEventListener('click', () => {
+        document.querySelector('.sidebar').classList.toggle('_activesidebar');
+        document.querySelector('.burger').classList.toggle('_activeburger')
+    });
+    
+    //?Preloader=====================================================================================
+    window.onload = function () {
+        let preloader = document.getElementById('preloader');
+        preloader.style.display = 'none';
+    };
+    //?End Preloader=====================================================================================
+    document.querySelector('#galgofa').addEventListener('click', () => {
+        alert('Галгофа');
+    });
+    document.querySelector('#promt').addEventListener('click', () => {
+        alert('Обрати внимание на даты');
+    });
+    document.querySelector('#belarus').addEventListener('click', () => {
+        alert('Политический приговор диктатора, угадаешь какой страны?');
+        bel =  prompt('Страна из СССР',) ;
+        if (bel == 'Беларусь'){
+            alert('Умичка,');
+        }else{
+            ('хм, флаг красно-зелёный');
+        }
+        
+    });
+    document.querySelector('#galgofa').addEventListener('click', () => {
+        alert('Галгофа');
+    });
+    document.querySelector('#ces').addEventListener('click', () => {
+        
+        date = prompt(`Смерть Цезаря: год ..`,'xx')
+        if (date == 44){
+            alert('Красавчик. Дата под Avocode что то делает');
+        }else{
+            alert('Что то не так');
+        }
+    });
+    </script>
+</body>
+
+</html>
